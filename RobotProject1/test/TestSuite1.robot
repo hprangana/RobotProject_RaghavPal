@@ -26,15 +26,15 @@ MyFourthTest
     Log    I am inside 4th test
     
     
-# FirstSeleniumTest
-    # Open Browser    https://google.com    chrome
-    # Set Browser Implicit Wait    5
-    # Input Text      name=q                Automation step by step
-    # Press Keys    name=q    ENTER
-    # # Click Button    name=btnK    
-    # Sleep    2    
-    # Close Browser 
-    # Log    Test Completed 
+FirstSeleniumTest
+    Open Browser    https://google.com    chrome
+    Set Browser Implicit Wait    5
+    Input Text      name=q                Automation step by step
+    Press Keys    name=q    ENTER
+    Click Button    name=btnK    
+    Sleep    2    
+    Close Browser 
+    Log    Test Completed 
 
 # SampleLoginTest
     # [Documentation]    This is a sample login test
